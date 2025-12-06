@@ -131,3 +131,42 @@ Results Summary:
 | Logistic Regression  | Good recall & F1          | Stable after SMOTE                |
 | Decision Tree        | Good interpretability     | Captures patterns                 |
 | Neural Network (MLP) | Best balanced performance | Needs more iterations to converge |
+
+How to Run the Project:
+
+1. Clone the repository
+
+git clone https://github.com/AfreenJenifer/customer_churn_prediction.git
+
+2. Create virtual environment
+
+python -m venv .venv
+.\.venv\Scripts\activate
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Run the model
+
+python churn_model.py
+
+ Future Enhancements:
+
+Try Random Forest, XGBoost, LightGBM
+
+Hyperparameter tuning using GridSearchCV
+
+Add confusion matrix, ROC curve
+
+Deploy model using Flask / FastAPI
+
+Add Streamlit web UI
+
+ Author:
+
+Afreen Jenifer A
+
+Intern | Data Analysis Enthusiast
+
+GitHub: https://github.com/AfreenJenifer
